@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<h1>Registrar</h1>
+	<form action="https://google.com">
+		<div>
+			<label for="nome">Nome:</label>
+			<input id="nome" type="textbox" name="Nome" placeholder="Maria" required>
+
+			<label for="Sobrenome">Sobrenome:</label>
+			<input id="Sobrenome" type="textbox" name="Sobrenome" placeholder="dos Santos" required>
+		</div>
+		<div>
+			<label for="fem">Sexo: Feminino</label>
+			<input id="fem" type="radio" name="sexo">
+
+			<label for="mas">Masculino</label>
+			<input id="mas" type="radio" name="sexo">
+
+			<label for="outro">Outro</label>
+			<input id="outro" type="radio" name="sexo">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input id="email" type="email" name="email" placeholder="Email">
+
+			<label for="password">Senha:</label>
+			<input id="password" type="password" name="pass" placeholder="Password" required minlength="6" >
+		</div>
+		<div>
+			<label for="aniversario">Aniversário:</label>
+			<select name="Mês">
+				<option disabled selected>Dia</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+			</select>
+			<select>
+				<option disabled>Mês</option>
+				<option value="Jan">Jan</option>
+				<option value="Fev">Fev</option>
+				<option value="Mar">Mar</option>
+			</select>
+			<select>
+				<option disabled>Ano</option>
+				<option value="91">1991</option>
+				<option value="92">1992</option>
+				<option value="93">1993</option>
+			</select>
+		</div>
+		<div>
+			<label for="termos">Eu aceito os termos e condições:</label>
+			<input id="termos" type="checkbox" name="aceito termos" required>
+		</div>
+		<div>
+			<button>Simbora!</button>
+		</div>
+	</form>
+</body>
+</html>
