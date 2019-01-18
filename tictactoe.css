@@ -1,0 +1,26 @@
+h1{
+	font-family: 'ZCOOL QingKe HuangYou';
+	font-size: 70px;
+	width: 50%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+td{
+	width: 100px;
+	height: 100px;
+}
+
+.lateral{
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+}
+
+.upbottom{
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+table{
+	margin: 40px auto 0 auto;
+}
